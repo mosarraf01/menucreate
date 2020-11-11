@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    margin: auto;
+}
+.main-menu{
+    background-color: #3498db;
+}
+.menu ul{
+      text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    border-right:1px solid rgba(51, 13, 13, .2);
+    margin-left: -4px;
+}
+.menu ul li a{
+    color: white;
+    padding: 6px 14px;
+    display: inline-block;
+    font-size:17px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: #2980b9;
+}
